@@ -125,8 +125,7 @@ width:50px;
     position: relative;
     margin: 0 auto;
 }
-.rectangle img {
-
+#rotimg{
     max-width: 100%;
     max-height: 100%;
     display: block;
@@ -137,6 +136,25 @@ width:50px;
     bottom: 0;
     margin: auto;
 }
+#doc{
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 70;
+    bottom: 0;
+    margin: auto;
+}
+.cont{
+    display: flex;
+}
+.tick{
+    width:10px;
+    line-height: 25px;
+    margin-top: 10px;
+}
 
 .whyggtext{
 position: absolute;
@@ -144,4 +162,10 @@ font-size: larger;
 font-family: Arial, Helvetica, sans-serif;
 margin-left:700px;
 margin-top:100px;
+}
+.special{
+    position: absolute;
+    padding-top:0;
+    padding-left: 40px;
+    line-height: 20px;
 }
