@@ -114,6 +114,54 @@ select{
 .departments, .interested{
 margin-top: 20px;
 }
+.interested{
+    background: linear-gradient(white 50%,#EAF2FF 50%);
+}
+.facility{
+    margin-bottom: 40px;
+    margin-top: 100px;
+}
+.meetspecialisthead{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.spcollarge{
+    display:flex;
+    padding: 25px;
+}
+.speciallistbody{
+    display: flex;
+}
+.meetspecialisthead{
+    margin-top: 50px;
+}
+.view{
+    display: flex;
+    justify-content: center;
+    top:0;
+}
+#viewbutton{
+    position:absolute;
+    float:right;
+    color: rgb(255, 255, 255);
+    width: 150px;
+    height: 60px;
+    font-size: medium;
+    background-color: #17C1A3;
+    border-radius: 10px;
+    border:none;
+}
+.spcol img{
+    width:300px;
+    padding-right: 25px;
+}
+.spcol {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
 .carouselbody{
     margin-top: 0px;
     margin-left: 50px;
@@ -128,8 +176,16 @@ margin-top: 20px;
 .col1 img{
     width:380px;
 }
+.whygg{
+    margin-top: 70px;
+    margin-bottom: 50px;
+}
 .whygg p{
 font-size: small;
+width:300px;
+line-height:16px;
+padding-left: 0;
+padding-bottom: 4px;
 }
 .whygg p img{
 margin-left: 50px;
@@ -190,7 +246,7 @@ margin-top:100px;
     padding-top: 100px;
     padding-left:120px;
     height:400px;
-    width:90%;
+    width:91.5%;
     background-color: #EAF2FF;
     position: relative;
 }
@@ -228,7 +284,7 @@ margin-top:100px;
     border:none;
 
 }
-.interesthead{
+.interesthead,.facilityhead{
     display: flex;
     justify-content: center;
 }
