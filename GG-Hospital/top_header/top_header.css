@@ -169,3 +169,25 @@ margin-top:100px;
     padding-left: 40px;
     line-height: 20px;
 }
+footer{
+    background-color: #d6d6d6;
+    width:90%;
+    height:200px;
+    bottom: 0;
+    padding-left:5%;
+    padding-right: 5%;
+    padding-top: 50px;
+}
+.footabout{
+    display:flex;
+    justify-content: space-around;
+}
+.footgg{
+    flex:2;
+}
+.aboutgg{
+    flex:1;
+}
+.legal{
+    flex:1;
+}
