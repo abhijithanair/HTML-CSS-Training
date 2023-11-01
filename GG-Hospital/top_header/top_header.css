@@ -111,8 +111,12 @@ select{
     margin-top: 250px;
 
 }
-.whygg{
-
+.whygg p{
+font-size: small;
+}
+.whygg p img{
+margin-left: 50px;
+width:50px;
 }
 .rectangle{
     background-color: #E8F9F6;
@@ -132,4 +136,12 @@ select{
     right: 70;
     bottom: 0;
     margin: auto;
+}
+
+.whyggtext{
+position: absolute;
+font-size: larger;
+font-family: Arial, Helvetica, sans-serif;
+margin-left:700px;
+margin-top:100px;
 }
