@@ -1,0 +1,38 @@
+.heading {
+  text-align: center;
+  font-size: larger;
+  color: white;
+}
+.bodyclass {
+  background-color: rgb(157, 235, 235);
+}
+.bodystyle {
+  text-align: center;
+  color: red;
+}
+.upperbox {
+    padding: 5px;
+    background-color: rgb(230, 146, 76);
+}
+.lowerbox {
+    padding: 10px;
+    background-color: rgb(98, 98, 128);
+}
+.firstlist {
+  text-wrap: rgb(225, 218, 232);
+  margin: 10px;
+}
+.secondlist {
+  margin: 10px;
+  padding-bottom: 5px;
+}
+ol li{
+    background-color: aquamarine;
+    border-radius: 1px;
+}
+ul li{
+    background-color: aliceblue;
+    margin: 5px;
+    border-radius: 5px;
+    padding: 5px;
+}
